@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		FCEFD2E11B82DE18009DF45C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEFD2E01B82DE18009DF45C /* AppDelegate.swift */; };
-		FCEFD2E31B82DE18009DF45C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEFD2E21B82DE18009DF45C /* ViewController.swift */; };
 		FCEFD2E61B82DE18009DF45C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCEFD2E41B82DE18009DF45C /* Main.storyboard */; };
 		FCEFD2E81B82DE18009DF45C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCEFD2E71B82DE18009DF45C /* Images.xcassets */; };
 		FCEFD2EB1B82DE18009DF45C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCEFD2E91B82DE18009DF45C /* LaunchScreen.xib */; };
 		FCEFD2F71B82DE18009DF45C /* MadisonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEFD2F61B82DE18009DF45C /* MadisonTests.swift */; };
 		FCEFD3011B82E060009DF45C /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = FCEFD3001B82E060009DF45C /* .gitignore */; };
+		FCEFD3031B84A2E0009DF45C /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEFD3021B84A2E0009DF45C /* CategoriesViewController.swift */; };
+		FCEFD3051B84A3D1009DF45C /* CategorieViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEFD3041B84A3D1009DF45C /* CategorieViewCell.swift */; };
+		FCEFD3071B84A488009DF45C /* bach_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FCEFD3061B84A488009DF45C /* bach_image.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +32,6 @@
 		FCEFD2DB1B82DE18009DF45C /* Madison.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Madison.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCEFD2DF1B82DE18009DF45C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCEFD2E01B82DE18009DF45C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FCEFD2E21B82DE18009DF45C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FCEFD2E51B82DE18009DF45C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FCEFD2E71B82DE18009DF45C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FCEFD2EA1B82DE18009DF45C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -38,6 +39,9 @@
 		FCEFD2F51B82DE18009DF45C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCEFD2F61B82DE18009DF45C /* MadisonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MadisonTests.swift; sourceTree = "<group>"; };
 		FCEFD3001B82E060009DF45C /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		FCEFD3021B84A2E0009DF45C /* CategoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CategoriesViewController.swift; path = ../CategoriesViewController.swift; sourceTree = "<group>"; };
+		FCEFD3041B84A3D1009DF45C /* CategorieViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategorieViewCell.swift; sourceTree = "<group>"; };
+		FCEFD3061B84A488009DF45C /* bach_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bach_image.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,12 +84,14 @@
 		FCEFD2DD1B82DE18009DF45C /* Madison */ = {
 			isa = PBXGroup;
 			children = (
+				FCEFD3021B84A2E0009DF45C /* CategoriesViewController.swift */,
 				FCEFD2E01B82DE18009DF45C /* AppDelegate.swift */,
-				FCEFD2E21B82DE18009DF45C /* ViewController.swift */,
+				FCEFD3061B84A488009DF45C /* bach_image.jpg */,
 				FCEFD2E41B82DE18009DF45C /* Main.storyboard */,
 				FCEFD2E71B82DE18009DF45C /* Images.xcassets */,
 				FCEFD2E91B82DE18009DF45C /* LaunchScreen.xib */,
 				FCEFD2DE1B82DE18009DF45C /* Supporting Files */,
+				FCEFD3041B84A3D1009DF45C /* CategorieViewCell.swift */,
 			);
 			path = Madison;
 			sourceTree = "<group>";
@@ -196,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCEFD3011B82E060009DF45C /* .gitignore in Resources */,
+				FCEFD3071B84A488009DF45C /* bach_image.jpg in Resources */,
 				FCEFD2E61B82DE18009DF45C /* Main.storyboard in Resources */,
 				FCEFD2EB1B82DE18009DF45C /* LaunchScreen.xib in Resources */,
 				FCEFD2E81B82DE18009DF45C /* Images.xcassets in Resources */,
@@ -216,7 +223,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCEFD2E31B82DE18009DF45C /* ViewController.swift in Sources */,
+				FCEFD3031B84A2E0009DF45C /* CategoriesViewController.swift in Sources */,
+				FCEFD3051B84A3D1009DF45C /* CategorieViewCell.swift in Sources */,
 				FCEFD2E11B82DE18009DF45C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
