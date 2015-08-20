@@ -16,6 +16,7 @@
 		FCEFD3031B84A2E0009DF45C /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEFD3021B84A2E0009DF45C /* CategoriesViewController.swift */; };
 		FCEFD3051B84A3D1009DF45C /* CategorieViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEFD3041B84A3D1009DF45C /* CategorieViewCell.swift */; };
 		FCEFD3071B84A488009DF45C /* bach_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FCEFD3061B84A488009DF45C /* bach_image.jpg */; };
+		FCEFD3091B85FD4B009DF45C /* ic_format_paint_white_48pt.png in Resources */ = {isa = PBXBuildFile; fileRef = FCEFD3081B85FD4A009DF45C /* ic_format_paint_white_48pt.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		FCEFD3021B84A2E0009DF45C /* CategoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CategoriesViewController.swift; path = ../CategoriesViewController.swift; sourceTree = "<group>"; };
 		FCEFD3041B84A3D1009DF45C /* CategorieViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategorieViewCell.swift; sourceTree = "<group>"; };
 		FCEFD3061B84A488009DF45C /* bach_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bach_image.jpg; sourceTree = "<group>"; };
+		FCEFD3081B85FD4A009DF45C /* ic_format_paint_white_48pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_format_paint_white_48pt.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				FCEFD3021B84A2E0009DF45C /* CategoriesViewController.swift */,
 				FCEFD2E01B82DE18009DF45C /* AppDelegate.swift */,
 				FCEFD3061B84A488009DF45C /* bach_image.jpg */,
+				FCEFD3081B85FD4A009DF45C /* ic_format_paint_white_48pt.png */,
 				FCEFD2E41B82DE18009DF45C /* Main.storyboard */,
 				FCEFD2E71B82DE18009DF45C /* Images.xcassets */,
 				FCEFD2E91B82DE18009DF45C /* LaunchScreen.xib */,
@@ -206,6 +209,7 @@
 				FCEFD2E61B82DE18009DF45C /* Main.storyboard in Resources */,
 				FCEFD2EB1B82DE18009DF45C /* LaunchScreen.xib in Resources */,
 				FCEFD2E81B82DE18009DF45C /* Images.xcassets in Resources */,
+				FCEFD3091B85FD4B009DF45C /* ic_format_paint_white_48pt.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

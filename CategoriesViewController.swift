@@ -12,7 +12,7 @@ let reuseIdentifier = "Cell"
 
 class CategoriesViewController: UICollectionViewController {
     
-    var myImage = UIImage(named: "bach_image.jpg")
+    var myImage = UIImage(named: "ic_format_paint_white_48pt.png")
 
     override func viewDidLoad() {
         super.viewDidLoad()
